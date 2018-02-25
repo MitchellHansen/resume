@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.24)  24 FEB 2018 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.24)  24 FEB 2018 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1384,27 +1384,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 32.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 32.
-
-Underfull \hbox (badness 2846) in paragraph at lines 115--116
-\T1/lmss/m/n/10.95 (+20) Al-go-rithms, Ap-pEngine, Bash,
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 115--116
-\T1/lmss/m/n/10.95 (+20) Git, L[]T[]X, OpenGL, Unity3D,
- []
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 61.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 61.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 61.
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 127.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 75.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 127.
-
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 75.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 127.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 75.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1415,26 +1411,26 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./tex_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `tex_resume.out' has not changed.
-(rerunfilecheck)             Checksum: 4D242DDBE293D4588AAB6AD99AF85E01;632.
+(rerunfilecheck)             Checksum: E7B8CF34B3AFCB277CF73C7D6C7E1CC1;411.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31995 strings out of 493029
- 594930 string characters out of 6136234
- 667406 words of memory out of 5000000
- 35042 multiletter control sequences out of 15000+600000
- 53936 words of font info for 60 fonts, out of 8000000 for 9000
+ 31978 strings out of 493029
+ 594257 string characters out of 6136234
+ 661400 words of memory out of 5000000
+ 35019 multiletter control sequences out of 15000+600000
+ 61973 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,65p,10488b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,14n,65p,10488b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texmf/fonts/enc
 /dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontaweso
@@ -1443,10 +1439,10 @@ re/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tex_resume.pdf (1 page, 147829 bytes).
+Output written on tex_resume.pdf (1 page, 139908 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 20029 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 21037 words of extra memory for PDF output out of 24883 (max. 10000000)
 
