@@ -12,11 +12,11 @@
 %----------------------------------------------------------------------------------
 \renewcommand*{\namefont}{\fontsize{38}{40}\mdseries\upshape}
 \firstname{Mitchell}
-\familyname{Hansen}                             % optional, remove/comment the line if not wanted
-\address{9907 NE 124th ST}{Kirkland, WA}{USA}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
-\mobile{509-607-0079}                          % optional, remove/comment the line if not wanted
-\email{mitchellhansen0@gmail.com}                               % optional, remove/comment the line if not wanted
-\homepage{mitchellhansen.info}                         % optional, remove/comment the line if not wanted
+\familyname{Hansen}                            
+\address{9907 NE 124th ST}{Kirkland, WA}{USA}  
+\mobile{509-607-0079}                          
+\email{mitchellhansen0@gmail.com}              
+\homepage{mitchellhansen.info}    
 \extrainfo{\homepagesymbol\httplink{github.com/mitchellhansen}}
 % \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %
@@ -30,11 +30,8 @@
 \vspace*{-8mm}
 
 \section{Experience}
-\cventry{Dec 2018 -- Present}{Embedded Software Developer}{CTR. Elektrobit, Protingent}{Bothell, WA}{}{
-At Elektrobit I received training on the AUTOSAR automotive standards and Elektrobits related tooling. This has
-been a much more embedded-first development experience as opposed to my linux-first experience developing for other products. 
-At Elektrobit I was also given the chance to gain fantastic real world linux kernel and kernel module development experience on 
-a large automotive linux project.
+\cventry{Dec 2018 -- Present}{Embedded Software Developer}{Elektrobit}{Bothell, WA}{}{
+At my current and lovely company Elektrobit, I am tasked with supporting our Tresos and Corbos implementations of the Autosar automotive standard. This support takes many forms; Dealing with low level debugging of automotive ECU's, from assembly to the OS architecture. Painstakingly fact checking configurations against CPU spec sheets. Or even sprinkling in a little onsite customer support as an Autosar SME.
 }
 
 \cventry{July 2017 -- Dec 2018}{Software Developer (Embedded / Full Stack Web)}{Espial}{Kirkland, WA}{}{
@@ -46,34 +43,31 @@ included bug fixes, feature work, automation (test\&build), releases, and if we 
 }
 
 \cventry{June 2016 -- Sept. 2016}{Full Stack Web Developer, Intern}{Donuts Inc.}{Bellevue, WA}{}{
-At Donuts I received a crash course in agile development and general software practices. I had up to this point
-been a pure C/C++ programmer with occasional spats of C\#. Donuts operated on a HTML + python + Google Cloud stack
-which was completely new for me, and forced me out of my comfort zone. I credit this for strengthening my ability to pivot
-between languages, frameworks, and environments.
-\newline
-\newline
-i.e I wrote a bunch of Google Cloud microservices and tools
+At Donuts I wrote bad html/css, and bad javascript. I still write bad html/css/js. I also learned that I'd rather move my career more in the direction of embedded development.
 }
 
-\section{Education}
-\cventry{2012--2017}{B.S. in Computer Science}{Central Washington University}{Ellensburg, WA}{}{}  % arguments 3 to 6 can be left empty
-\cventry{Birth - Present}{Mega-Nerd}{}{}{}{I'm a lifelong learner and a total nerd. I program as a hobby, love learning new things, and am always up for a challenge.}
+
 \section{Skills \& Languages}
 
 
 \cventry{}{In depth knowledge / Professional experience}{}{}{}{
-	C++, Java, Python, OpenCL, Linux, Git / Perforce
+    C, C++, and their compilers \& linkers, Java, Python, Rust, OpenCL, Linux, Git / Perforce / SVN / etc.
+    AUTOSAR, Automotive compilers, debuggers, toolchains
 }
 
 \cventry{}{Enough to be dangerous}{}{}{}{
-	SQL, Javascript, HTML \& CSS, 3D Graphics, Android, AWS, Alexa, Bash, Clang \& GCC
+    Vulkan, OpenGL, SQL, Javascript, HTML \& CSS, Android, AWS, Alexa, Bash
 }
 
 \cventry{}{Passing knowledge, enough to sound dangerous}{}{}{}{
-	AUTOSAR, AppEngine, Flask, SVN, GDB, \LaTeX, OpenGL, Unity3D, Windows \& Mac
+	Flask, SVN, GDB, \LaTeX, Unity3D, Windows \& Mac
 }
 
 \vspace*{-2mm}
+
+\section{Education}
+\cventry{2012--2017}{B.S. in Computer Science}{Central Washington University}{Ellensburg, WA}{}{}  % arguments 3 to 6 can be left empty
+\cventry{Birth - Present}{Mega-Nerd}{}{}{}{I'm a lifelong learner and a total nerd. I program as a hobby, love learning new things, and am always up for a challenge.}
 
 \section{Portfolio}
 \cventry{}{Volumetric Rendering Engine}{OpenCL, C++, SFML, Voxel Ray Marching, 3D Math}{}{}{
@@ -82,7 +76,7 @@ i.e I wrote a bunch of Google Cloud microservices and tools
 	and reflections, along with a TCP streaming Android controller. Presented at the CWU
 	College Of The Sciences fair.
 }
+\cventry{}{Tracer}{Rust, Vulkan}{}{}{A 2D drawing machine. From pulleys to hardware accelerated image processing.}
 \cventry{}{Conways Game of Life}{OpenCL, C++, SFML}{}{}{Completely in-core GPU Conways Game of Life simulator and accompanying RLE decoder.}
-\cventry{}{Optimization Algorithms}{C++, Computer Science Mathematics}{}{}{Implementation of 15 optimization test suite functions, and 9 popular mathematical optimization algorithms.}
-\cventry{}{Project Euler}{Python, Computer Science Mathematics}{}{}{Combinatorics, discrete math, and other logic problems solved using Python.}
+\cventry{}{Project Euler}{Python}{}{}{Combinatorics, discrete math, and other logic problems solved using Python.}
 \end{document}
